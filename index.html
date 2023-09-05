@@ -10,18 +10,20 @@
 <body>
     <section>
         <div class="wrapper">
+            <h1>Welcome to [grocery store]</h1>
+            <h2>What are you shopping for today?</h2>
             <form>
                 <label>Item 1:
-                    <input type="text" class="input" value="" />
+                    <input type="text" id="item1" class="input" value="" />
                 </label>
                 <label>Item 2:
-                    <input type="text" class="input" value="" />
+                    <input type="text" id="item2" class="input" value="" />
                 </label>
                 <label>Item 3:
-                    <input type="text" class="input" value="" />
+                    <input type="text" id="item3" class="input" value="" />
                 </label>
                 <label>Item 4:
-                    <input type="text" class="input" value="" />
+                    <input type="text" id="item4" class="input" value="" />
                 </label>
                 <div class="wrapper--button">
                     <button type="button" id="generateList">Make My List</button>
@@ -29,7 +31,14 @@
             </form>
         </div>
         <div id="myList" class="wrapper">
-
+            <p id="myStuffDefault" class="greeting"></p>
+            <ul id="hidden">
+                <lh class="listHeader">Our team members are happy to assist you</lh>
+                <li id="myStuff1"></li>
+                <li id="myStuff2"></li>
+                <li id="myStuff3"></li>
+                <li id="myStuff4"></li>
+            </ul>
         </div>
     </section>
 </body>
